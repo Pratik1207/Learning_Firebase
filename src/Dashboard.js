@@ -26,6 +26,15 @@ const Dashboard = () => {
               Student List
             </Link>
           </li>
+          <li style={{ marginBottom: '10px' }}>
+            <Link to="/addfacultylist" style={{ color: '#fff', textDecoration: 'none' }}>
+              Add Faculty
+            </Link>
+          </li>          <li style={{ marginBottom: '10px' }}>
+            <Link to="/facultylist" style={{ color: '#fff', textDecoration: 'none' }}>
+              Faculty List
+            </Link>
+          </li>
         </ul>
       </div>
 
